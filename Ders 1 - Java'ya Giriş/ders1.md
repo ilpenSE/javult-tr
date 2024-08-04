@@ -33,7 +33,7 @@ public class Main {
 }
 ```
 Yukardaki kod parçasında Main isimli bir sınıf oluşturulmuş ve bu sınıfın içinde programın başlangıç yani `main` metodu bulunmaktadır. Bu metot her Java programında `public static void main(String[] args)` şeklinde yazılmalıdır. Metotlar hakkında daha fazla bilgi için [buraya tıklayın.](#metotlar)<br></br>
-`System.out.println()` metodu ekrana yani konsola bir şeyler yazdırmak için kullanılır. `println` ismindeki `ln` ifadesi **line** kelimesinin kısaltmasıdır. Parantez içine her türden veri yazılabilir. İki `"` (tırnak) arasında gösterilen ifadeye `String` denir ve içinde herhangi bir metni tutar. Daha fazla bilgi için [buraya tıklayın.]()<br></br>
+`System.out.println()` metodu ekrana yani konsola bir şeyler yazdırmak için kullanılır. `println` ismindeki `ln` ifadesi **line** kelimesinin kısaltmasıdır. Parantez içine her türden veri yazılabilir. İki `"` (tırnak) arasında gösterilen ifadeye `String` denir ve içinde herhangi bir metni tutar. Daha fazla bilgi için [buraya tıklayın.](#String%20Veri%20Türü)<br></br>
 ## Erişim Operatörleri ve Paketler
 `public` operatörü bu sınıfın diğer sınıflardan da ulaşılabilir olması demektir. Bunlara erişim operatörleri (access operators) denir. Erişim operatörleri `public`, `private` ve `protected` olmak üzere üç tanedir. `private` operatörü geldiği değişkeni/metodu sadece o dosya içinde erişilebilir yapar. `protected` operatörüyse geldiği değişkeni/metodu sadece o paket içinde ya da o dosyadaki alt sınıflarda (subclass) erişilebilir yapar. Java'daki **paket**ler art arda klasörler şeklinde olur. Örneğin `dev.elite` isimli paketin bulunduğu projenin ***src*** dosyası yani kodların bulunduğu dosya şu şekilde olur:
 ```
